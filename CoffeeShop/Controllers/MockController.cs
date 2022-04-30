@@ -4,7 +4,7 @@ namespace CoffeeShop.Controllers;
 
 [ApiController]
 [Route("test")]
-public class TestController : ControllerBase
+public class MockController : ControllerBase
 {
     public string Get()
     {

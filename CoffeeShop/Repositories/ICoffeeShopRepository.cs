@@ -1,8 +1,8 @@
 using CoffeeShop.Models;
 
-namespace CoffeeShop.Services;
+namespace CoffeeShop.Repositories;
 
-public interface ICoffeeShopService
+public interface ICoffeeShopRepository
 {
     Task<IEnumerable<CoffeeShopModel>> CoffeeList();
     Task<CoffeeShopModel> Coffee(int id);

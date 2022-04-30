@@ -2,13 +2,13 @@ using CoffeeShop.Data;
 using CoffeeShop.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace CoffeeShop.Services;
+namespace CoffeeShop.Repositories;
 
-public class CoffeeShopService :ICoffeeShopService
+public class CoffeeShopRepository :ICoffeeShopRepository
 {
     private readonly AppDbContext _context;
 
-    public CoffeeShopService(AppDbContext context)
+    public CoffeeShopRepository(AppDbContext context)
     {
         _context = context;
     }

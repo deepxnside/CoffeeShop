@@ -1,5 +1,5 @@
 using CoffeeShop.Models;
-using CoffeeShop.Services;
+using CoffeeShop.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CoffeeShop.Controllers;
@@ -8,9 +8,9 @@ namespace CoffeeShop.Controllers;
 [ApiController]
 public class CoffeeController : ControllerBase
 {
-    private readonly ICoffeeShopService _repository;
+    private readonly ICoffeeShopRepository _repository;
 
-    public CoffeeController(ICoffeeShopService repository)
+    public CoffeeController(ICoffeeShopRepository repository)
     {
         _repository = repository;
     }

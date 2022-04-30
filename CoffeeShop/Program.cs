@@ -1,12 +1,12 @@
 using CoffeeShop.Data;
-using CoffeeShop.Services;
+using CoffeeShop.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-builder.Services.AddScoped<ICoffeeShopService,CoffeeShopService>();
+builder.Services.AddScoped<ICoffeeShopRepository,CoffeeShopRepository>();
 
 builder.Services.AddDbContext<AppDbContext>(opt =>
     opt.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection") ?? string.Empty));
