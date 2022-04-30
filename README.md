@@ -1,8 +1,3 @@
-# CoffeeShop
-Basic Webapi and Identity Server with Dotnet 6
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
