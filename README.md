@@ -17,8 +17,8 @@
 
 ### Built With
 
-* [Npgsql](https://www.npgsql.org/)
 * [Dotnet 6](https://docs.microsoft.com/en-us/dotnet/core/whats-new/dotnet-6)
+* [Npgsql](https://www.npgsql.org/)
 * [Identity Server](https://duendesoftware.com/products/identityserver)
 
 
