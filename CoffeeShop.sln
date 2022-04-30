@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeShop", "CoffeeShop\CoffeeShop.csproj", "{0D66D333-8D23-4632-ABD3-29269BFC87DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{4D02E7DA-56A1-42A9-920F-2BC057D93DCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D66D333-8D23-4632-ABD3-29269BFC87DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D66D333-8D23-4632-ABD3-29269BFC87DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D66D333-8D23-4632-ABD3-29269BFC87DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D66D333-8D23-4632-ABD3-29269BFC87DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D02E7DA-56A1-42A9-920F-2BC057D93DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D02E7DA-56A1-42A9-920F-2BC057D93DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D02E7DA-56A1-42A9-920F-2BC057D93DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D02E7DA-56A1-42A9-920F-2BC057D93DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
