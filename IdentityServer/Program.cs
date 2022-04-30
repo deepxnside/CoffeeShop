@@ -28,5 +28,6 @@ builder.Services.AddIdentityServer().AddConfigurationStore(opts =>
 
 var app = builder.Build();
 
+app.UseIdentityServer();
 
 app.Run();
