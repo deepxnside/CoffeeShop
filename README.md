@@ -65,3 +65,11 @@ This project requires Dotnet 6 , you can install Dotnet 6 from [here](https://do
 
 
 * Drop PersistedGrants and DeviceCodes  if you get any postgres error in runtime
+
+
+## Acknowledgements
+
+ - [IdentityServer4 Quickstart UI](https://github.com/IdentityServer/IdentityServer4.Quickstart.UI)
+ - [Iulianoana](https://github.com/iulianoana)
+
+
