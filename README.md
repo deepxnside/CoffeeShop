@@ -25,7 +25,7 @@
 
 ## Getting Started
 
-This project requires Dotnet6 , so install dotnet6 before launching the project
+This project requires Dotnet 6 , you can install Dotnet 6 from [here](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
 
 
 
