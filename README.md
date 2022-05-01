@@ -61,3 +61,7 @@ This project requires Dotnet 6 , you can install Dotnet 6 from [here](https://do
 
 5. Run the project
 
+
+
+
+* Drop PersistedGrants and DeviceCodes tables if you get any Database error
