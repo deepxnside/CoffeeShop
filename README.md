@@ -64,4 +64,4 @@ This project requires Dotnet 6 , you can install Dotnet 6 from [here](https://do
 
 
 
-* Drop PersistedGrants and DeviceCodes tables if you get any Database error
+* Drop PersistedGrants and DeviceCodes  if you get any postgres error in runtime
