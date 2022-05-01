@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\RiderProjects\\CoffeeShop\\IdentityServer\\IdentityServer.csproj": {}
+    "c:\\Users\\User\\RiderProjects\\CoffeeShop\\IdentityServer\\IdentityServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\RiderProjects\\CoffeeShop\\CoffeeShop\\CoffeeShop.csproj": {
+    "c:\\Users\\User\\RiderProjects\\CoffeeShop\\CoffeeShop\\CoffeeShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\RiderProjects\\CoffeeShop\\CoffeeShop\\CoffeeShop.csproj",
+        "projectUniqueName": "c:\\Users\\User\\RiderProjects\\CoffeeShop\\CoffeeShop\\CoffeeShop.csproj",
         "projectName": "CoffeeShop",
-        "projectPath": "C:\\Users\\User\\RiderProjects\\CoffeeShop\\CoffeeShop\\CoffeeShop.csproj",
+        "projectPath": "c:\\Users\\User\\RiderProjects\\CoffeeShop\\CoffeeShop\\CoffeeShop.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\RiderProjects\\CoffeeShop\\CoffeeShop\\obj\\",
+        "outputPath": "c:\\Users\\User\\RiderProjects\\CoffeeShop\\CoffeeShop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -79,14 +79,14 @@
         }
       }
     },
-    "C:\\Users\\User\\RiderProjects\\CoffeeShop\\IdentityServer\\IdentityServer.csproj": {
+    "c:\\Users\\User\\RiderProjects\\CoffeeShop\\IdentityServer\\IdentityServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\RiderProjects\\CoffeeShop\\IdentityServer\\IdentityServer.csproj",
+        "projectUniqueName": "c:\\Users\\User\\RiderProjects\\CoffeeShop\\IdentityServer\\IdentityServer.csproj",
         "projectName": "IdentityServer",
-        "projectPath": "C:\\Users\\User\\RiderProjects\\CoffeeShop\\IdentityServer\\IdentityServer.csproj",
+        "projectPath": "c:\\Users\\User\\RiderProjects\\CoffeeShop\\IdentityServer\\IdentityServer.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\RiderProjects\\CoffeeShop\\IdentityServer\\obj\\",
+        "outputPath": "c:\\Users\\User\\RiderProjects\\CoffeeShop\\IdentityServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -103,8 +103,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\User\\RiderProjects\\CoffeeShop\\CoffeeShop\\CoffeeShop.csproj": {
-                "projectPath": "C:\\Users\\User\\RiderProjects\\CoffeeShop\\CoffeeShop\\CoffeeShop.csproj"
+              "c:\\Users\\User\\RiderProjects\\CoffeeShop\\CoffeeShop\\CoffeeShop.csproj": {
+                "projectPath": "c:\\Users\\User\\RiderProjects\\CoffeeShop\\CoffeeShop\\CoffeeShop.csproj"
               }
             }
           }
