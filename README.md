@@ -23,3 +23,45 @@
 
 
 
+## Getting Started
+
+This project requires Dotnet 6 , you can install Dotnet 6 from [here](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
+
+
+
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/newburner/CoffeeShop.git
+   ```
+2. Open the project in any IDE
+
+3. Run efcore migrations for both projects (ef cli / Package Manager Console)
+
+    CoffeeShop
+   ```sh
+   Add-Migration initialmigration 
+   Update-Database 
+
+   ```
+    IdentityServer
+
+   ```sh
+   Add-Migration initialmigration -Context PersistedGrantDbContext
+   Update-Database -Context PersistedGrantDbContext
+
+   Add-Migration initialmigration -Context ConfigurationDbContext
+   Update-Database -Context ConfigurationDbContext
+
+   Add-Migration initialmigration -Context IdentityContext
+   Update-Database -Context IdentityContext
+
+   ```
+4. Add `/seed` argument in launch configuration for IdentityServer project
+
+5. Run the project
+
+
+
+
+* Drop PersistedGrants and DeviceCodes  if you get any postgres error in runtime
